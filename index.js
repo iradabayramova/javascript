@@ -1,8 +1,8 @@
 let numFirst = parseInt(prompt('Введите первое число'));
-num1 = Number(numFirst);
+numFirst = Number(numFirst);
 
 let numSecond = parseInt(prompt('Введите второе число'));
-num2 = Number(numSecond);
+numSecond = Number(numSecond);
 
 
 let operator = prompt('оператор (/,+,*,-)');
