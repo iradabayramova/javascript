@@ -1,8 +1,8 @@
-let num1 = parseInt(prompt('Введите первое число'));
-num1 = Number(num1);
+let numFirst = parseInt(prompt('Введите первое число'));
+num1 = Number(numFirst);
 
-let num2 = parseInt(prompt('Введите второе число'));
-num2 = Number(num2);
+let numSecond = parseInt(prompt('Введите второе число'));
+num2 = Number(numSecond);
 
 
 let operator = prompt('оператор (/,+,*,-)');
@@ -10,16 +10,16 @@ let operator = prompt('оператор (/,+,*,-)');
 
 switch (operator) {
     case '+':
-        alert (num1 + num2);
+        alert (numFirst + numSecond);
         break;
     case '-':
-        alert (num1 - num2);
+        alert (numFirst - numSecond);
         break;
     case '/':
-        alert (num1 / num2);
+        alert (numFirst / numSecond);
         break;
     case '*':
-        alert (num1 * num2);
+        alert (numFirst * numSecond);
       
    
 }
